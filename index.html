@@ -14,7 +14,11 @@
         }
 
         function playRound(playerSelection, computerSelection) {
-
+            if typeof(playerSelection) != "string"
+                return ("invalid input")
+            } else if playerSelection == computerSelection {
+                return ("it's a draw")
+            } else if (playerSelection == "rock" || computerSelection == "rock") && ()
         }
         
         const computerSelection = computerPlay()
